@@ -1,0 +1,38 @@
+.body{
+   background-color: rgb(211, 246, 211);
+}
+header{
+   background-color: rgb(120, 220, 120);
+}
+.divmain{
+   display: flex;
+   direction: row;
+
+}
+.section{
+   position: absolute;
+   left: 83%;
+   display: flex;
+   flex-direction:  row;
+}
+@media  (max-height: 760px){
+   .secton{
+      position: absolute;
+      top: 80%;
+   }
+}
+
+.radio{
+   display: flex;
+   direction: column;
+}
+#header{
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+#contact{
+   
+   border: solid black 2px;
+   border-radius: 5px;
+}
